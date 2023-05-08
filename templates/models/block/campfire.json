@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/template_campfire",
+    "textures": {
+      "fire": "minecraft:block/campfire_fire",
+      "lit_log": "${NAMESPACE}:${PATH}/${BLOCK}_log_lit"
+    }
+  }
+  

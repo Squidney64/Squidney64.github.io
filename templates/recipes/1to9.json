@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "$GROUP",
+  "ingredients": [
+    {
+      "tag": "$ING_NAMESPACE:$INGREDIENT"
+    }
+  ],
+  "result": {
+    "item": "${NAMESPACE}:${BLOCK}",
+    "count": 9
+  }
+}

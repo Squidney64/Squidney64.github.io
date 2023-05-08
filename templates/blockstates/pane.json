@@ -1,0 +1,78 @@
+{
+    "multipart": [
+      {
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_post"
+        }
+      },
+      {
+        "when": {
+          "north": "true"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_side"
+        }
+      },
+      {
+        "when": {
+          "east": "true"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_side",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "south": "true"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_side_alt"
+        }
+      },
+      {
+        "when": {
+          "west": "true"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_side_alt",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "north": "false"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_noside"
+        }
+      },
+      {
+        "when": {
+          "east": "false"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_noside_alt"
+        }
+      },
+      {
+        "when": {
+          "south": "false"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_noside_alt",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "west": "false"
+        },
+        "apply": {
+          "model": "$NAMESPACE:$PATH/${BLOCK}_noside",
+          "y": 270
+        }
+      }
+    ]
+  }
+  

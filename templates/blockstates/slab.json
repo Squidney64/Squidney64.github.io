@@ -1,0 +1,14 @@
+{
+    "variants": {
+      "type=bottom": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}"
+      },
+      "type=double": {
+        "model": "$NAMESPACE:$PATH/${BLOCK_full}"
+      },
+      "type=top": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_top"
+      }
+    }
+  }
+  

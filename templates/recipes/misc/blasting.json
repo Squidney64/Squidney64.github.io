@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "group": "$GROUP",
+    "ingredient": {
+      "item": "$ING_NAMESPACE:$INGREDIENT"
+    },
+    "result": "$NAMESPACE:$BLOCK",
+    "experience": "$XP",
+    "cookingtime": "$TIME"
+  }
+  

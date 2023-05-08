@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/${PARENT}",
+    "textures": {
+      "$TYPE": "${NAMESPACE}:${PATH}/${BLOCK}"
+    }
+  }
+  

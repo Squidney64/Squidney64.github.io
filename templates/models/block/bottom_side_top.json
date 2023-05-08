@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/${PARENT}",
+    "textures": {
+      "bottom": "${NAMESPACE}:${PATH}/${BLOCK_full}",
+      "side": "${NAMESPACE}:${PATH}/${BLOCK_full}",
+      "top": "${NAMESPACE}:${PATH}/${BLOCK_full}"
+    }
+  }
+  

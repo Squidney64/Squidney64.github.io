@@ -1,0 +1,125 @@
+{
+    "block": [
+        "block/basic//cube_all/all",
+        "item/basic//"
+    ],
+    "stairs": [
+        "block/bottom_side_top//stairs",
+        "block/bottom_side_top/_inner/inner_stairs",
+        "block/bottom_side_top/_outer/outer_stairs",
+        "item/basic//"
+    ],
+    "slab": [
+        "block/bottom_side_top//slab",
+        "block/bottom_side_top/_top/slab_top",
+        "item/basic//"
+    ],
+    "wall": [
+        "block/basic_full/_inventory/wall_inventory/wall",
+        "block/basic_full/_post/template_wall_post/wall",
+        "block/basic_full/_side/template_wall_side/wall",
+        "block/basic_full/_side_tall/template_wall_side_tall/wall",
+        "item/basic/_inventory/"
+    ],
+    "rotated_horizontal": [
+        "block/end_side//cube_column",
+        "block/end_side/_horizontal/cube_column_horizontal",
+        "item/basic//"
+    ],
+    "rotated_y": [
+        "block/front_side_top//orientable",
+        "item/basic//"
+    ],
+    "rotated": [
+        "block/basic//cube_column",
+        "item/basic//"
+    ],
+    "button": [
+        "block/basic//button/texture",
+        "block/basic/_inventory/button_inventory",
+        "block/basic/_pressed/button_pressed",
+        "item/basic/_inventory/"
+    ],
+    "pressure_plate": [
+        "block/basic//pressure_plate_up",
+        "block/basic/_down/pressure_plate_down",
+        "item/basic//"
+    ],
+    "door": [
+        "block/bottom_top/_bottom_left/door_bottom_left",
+        "block/bottom_top/_bottom_left_open/door_bottom_left_open",
+        "block/bottom_top/_bottom_right/door_bottom_right",
+        "block/bottom_top/_bottom_right_open/door_bottom_right_open",
+        "block/bottom_top/_top_left/door_top_left",
+        "block/bottom_top/_top_left_open/door_top_left_open",
+        "block/bottom_top/_top_right/door_top_right",
+        "block/bottom_top/_top_right_open/door_top_right_open",
+        "item/generated//"
+    ],
+    "trapdoor": [
+        "block/basic/_bottom/template_orientable_trapdoor_bottom",
+        "block/basic/_open/template_orientable_trapdoor_open",
+        "block/basic/_top/template_orientable_trapdoor_top",
+        "item/generated//"
+    ],
+    "fence_gate": [
+        "block/basic//template_fence_gate",
+        "block/basic/_open/template_fence_gate_open",
+        "block/basic/_wall/template_fence_gate_wall",
+        "block/basic/_wall_open/template_fence_gate_wall_open",
+        "item/basic//"
+    ],
+    "fence": [
+        "block/basic/_inventory/fence_inventory",
+        "block/basic/_post/fence_post",
+        "block/basic/_side/fence_side",
+        "item/basic/_inventory/"
+    ],
+    "glazed": [
+        "block/basic//template_glazed_terracotta/pattern",
+        "item/basic//"
+    ],
+    "lantern": [
+        "block/basic//template_lantern",
+        "block/basic/_hanging/template_hanging_lantern",
+        "item/generated//"
+    ],
+    "pane": [
+        "block/pane/_post/template_glass_pane_post",
+        "block/basic/_side/template_glass_pane_side",
+        "block/basic/_side_alt/template_glass_pane_side_alt",
+        "block/basic/_noside/template_glass_pane_noside",
+        "block/basic/_noside_alt/template_glass_pane_noside_alt",
+        "item/generated//"
+    ],
+    "campfire": [
+        "block/campfire//",
+        "block/campfire_off//",
+        "item/basic//"
+    ],
+    "crop_4": [
+        "block/crop/_stage0/",
+        "block/crop/_stage1/",
+        "block/crop/_stage2/",
+        "block/crop/_stage3/",
+        "item/basic//"
+    ],
+    "crop_8": [
+        "block/crop/_stage0/",
+        "block/crop/_stage1/",
+        "block/crop/_stage2/",
+        "block/crop/_stage3/",
+        "block/crop/_stage4/",
+        "block/crop/_stage5/",
+        "block/crop/_stage6/",
+        "block/crop/_stage7/",
+        "item/basic//"
+    ],
+    "rail": [
+        "block/basic//rail_flat/rail",
+        "block/basic/_corner/rail_curved/rail",
+        "block/basic/_raised_ne/template_rail_raised_ne/rail",
+        "block/basic/_raised_sw/template_rail_raised_sw/rail",
+        "item/basic//"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "variants": {
+      "hanging=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}"
+      },
+      "hanging=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_hanging"
+      }
+    }
+  }
+  

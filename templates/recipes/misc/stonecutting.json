@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "$ING_NAMESPACE:$INGREDIENT"
+    },
+    "result": "$NAMESPACE:$BLOCK",
+    "count": "$COUNT"
+  }
+  

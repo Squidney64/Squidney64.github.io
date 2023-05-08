@@ -1,0 +1,25 @@
+{
+    "block_info": {
+        "version": "",
+        "name": "",
+        "name_singular": "",
+        "do_stairs": false,
+        "do_slab": false,
+        "do_wall": false,
+        "do_pressure_plate": false,
+        "do_button": false,
+        "do_chiseled": false,
+        "do_pillar": false,
+        "do_fence": false,
+        "do_fence_gate": false,
+        "do_door": false,
+        "do_trapdoor": false,
+        "do_signs": false,
+        "do_glazed": false,
+        "do_cracked": false,
+        "do_mossy": false,
+        "do_infested": false,
+        "do_plain": false,
+        "do_colored": false
+    }
+}

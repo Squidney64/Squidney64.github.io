@@ -1,0 +1,20 @@
+{
+    "variants": {
+      "facing=east": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}"
+      },
+      "facing=north": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 270
+      },
+      "facing=south": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 90
+      },
+      "facing=west": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 180
+      }
+    }
+  }
+  

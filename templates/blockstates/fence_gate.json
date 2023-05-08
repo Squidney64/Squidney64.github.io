@@ -1,0 +1,81 @@
+{
+    "variants": {
+      "facing=east,in_wall=false,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 270,
+        "uvlock": true
+      },
+      "facing=east,in_wall=false,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_open",
+        "y": 270,
+        "uvlock": true
+      },
+      "facing=east,in_wall=true,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall",
+        "y": 270,
+        "uvlock": true
+      },
+      "facing=east,in_wall=true,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall_open",
+        "y": 270,
+        "uvlock": true
+      },
+      "facing=north,in_wall=false,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 180,
+        "uvlock": true
+      },
+      "facing=north,in_wall=false,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_open",
+        "y": 180,
+        "uvlock": true
+      },
+      "facing=north,in_wall=true,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall",
+        "y": 180,
+        "uvlock": true
+      },
+      "facing=north,in_wall=true,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall_open",
+        "y": 180,
+        "uvlock": true
+      },
+      "facing=south,in_wall=false,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "uvlock": true
+      },
+      "facing=south,in_wall=false,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_open",
+        "uvlock": true
+      },
+      "facing=south,in_wall=true,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall",
+        "uvlock": true
+      },
+      "facing=south,in_wall=true,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall_open",
+        "uvlock": true
+      },
+      "facing=west,in_wall=false,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}",
+        "y": 90,
+        "uvlock": true
+      },
+      "facing=west,in_wall=false,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_open",
+        "y": 90,
+        "uvlock": true
+      },
+      "facing=west,in_wall=true,open=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall",
+        "y": 90,
+        "uvlock": true
+      },
+      "facing=west,in_wall=true,open=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_wall_open",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  }
+  

@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_$INGREDIENT": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "$ING_NAMESPACE:$INGREDIENT"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "$NAMESPACE:$BLOCK"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_$INGREDIENT",
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "$NAMESPACE:$BLOCK"
+      ]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "$GROUP",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "$ING_NAMESPACE:$INGREDIENT"
+      }
+    },
+    "result": {
+      "item": "$NAMESPACE:$BLOCK",
+      "count": 6
+    }
+  }
+  

@@ -1,0 +1,66 @@
+{
+    "block_info": {
+        "version": "1.19.2",
+        "name": "Juniper",
+        "name_singular": "Juniper",
+        "do_stairs": true,
+        "do_slab": true,
+        "do_wall": true,
+        "do_pressure_plate": true,
+        "do_button": true,
+        "do_chiseled": false,
+        "do_pillar": false,
+        "do_fence": true,
+        "do_fence_gate": true,
+        "do_door": true,
+        "do_trapdoor": true,
+        "do_signs": false,
+        "do_glazed": false,
+        "do_cracked": false,
+        "do_mossy": false,
+        "do_infested": false,
+        "do_plain": false,
+        "do_colored": false
+    },
+    "basic": {
+        "block": {
+            "block": "Juniper Planks",
+            "sign": "Juniper Sign",
+            "sapling": "Juniper Sapling",
+            "potted_sapling": "Potted Juniper Sapling",
+            "leaves": "Juniper Leaves"
+        },
+        "stairs": {
+            "stairs": "Juniper Stairs"
+        },
+        "slab": {
+            "slab": "Juniper Slab"
+        },
+        "fence": {
+            "fence": "Juniper Fence"
+        },
+        "fence_gate": {
+            "fence_gate": "Juniper Fence Gate"
+        },
+        "door": {
+            "door": "Juniper Door"
+        },
+        "trapdoor": {
+            "trapdoor": "Juniper Trapdoor"
+        },
+        "pressure_plate": {
+            "pressure_plate": "Juniper Pressure Plate"
+        },
+        "button": {
+            "button": "Juniper Button"
+        },
+        "rotated_horizontal": {
+            "log": "Juniper Log",
+            "stripped_log": "Stripped Juniper Log"
+        },
+        "rotated": {
+            "wood": "Juniper Wood",
+            "stripped_wood": "Stripped Juniper Wood"
+        }
+    }
+}

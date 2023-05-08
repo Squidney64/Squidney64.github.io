@@ -1,0 +1,11 @@
+{
+    "variants": {
+      "powered=false": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}"
+      },
+      "powered=true": {
+        "model": "$NAMESPACE:$PATH/${BLOCK}_down"
+      }
+    }
+  }
+  
